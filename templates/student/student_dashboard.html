@@ -1,0 +1,133 @@
+{% extends 'student/studentbase.html' %}
+{% load widget_tweaks %}
+{% block content %}
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <style type="text/css">
+      a:link {
+        text-decoration: none;
+      }
+
+      .bg-c-blue {
+        background: blue;
+      }
+
+      .bg-c-black {
+        background: black;
+        color: white;
+      }
+
+      .bg-c-green {
+        background: green;
+      }
+
+      .bg-c-yellow {
+        background: yellow;
+      }
+
+      .bg-c-red {
+        background: red;
+      }
+      .bg-c-powder-blue {
+        background: powderblue;
+      }
+
+
+      .card {
+
+        box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+        border: 1px solid black;
+        margin-bottom: 30px;
+      }
+    </style>
+  </head>
+
+<h1 align="center"> Welcome to LifyJobs</h1><br>
+
+  <div class="container">
+    <div class="row">
+
+
+      <div class="col-md-4 col-xl-6">
+        <div class="card bg-c-red order-card">
+          <div class="card-block">
+            <h6 class="m-b-20">Software Engineer <br> <br>  Deadline- less than 3 days left! Register now.</a></h6>
+           <h2 class="text-right"><i class="fas fa-book f-left"></i><span>{{total_course}}</span></h2>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-xl-6">
+        <div class="card bg-c-black order-card">
+          <div class="card-block">
+            <h6 class="m-b-20">Test Engineer <br> <br>  Deadline- Last date to be announced! Register now.</a></h6>
+            <h2 class="text-right"><i class="fas fa-question-circle f-left"></i><span>{{total_question}}</span></h2>
+
+          </div>
+        </div>
+      </div>
+
+         <div class="col-md-4 col-xl-6">
+        <div class="card bg-c-yellow order-card">
+          <div class="card-block">
+            <h6 class="m-b-20">UX/UI Developer <br> <br>  Deadline- less than 14 days left! Register now.</a></h6>
+            <h2 class="text-right"><i class="fas fa-question-circle f-left"></i><span>{{total_question}}</span></h2>
+
+          </div>
+        </div>
+      </div>
+
+         <div class="col-md-4 col-xl-6">
+        <div class="card bg-c-green order-card">
+          <div class="card-block">
+            <h6 class="m-b-20">Test Engineer <br> <br>  Deadline- less than 21 days left! Register now.</a></h6>
+            <h2 class="text-right"><i class="fas fa-question-circle f-left"></i><span>{{total_question}}</span></h2>
+
+          </div>
+        </div>
+      </div>
+
+
+              <div class="col-md-4 col-xl-6">
+        <div class="card bg-c-blue order-card">
+          <div class="card-block">
+            <h6 class="m-b-20">Business Analyst <br> <br>  Deadline- less than 30 days left! Register now.</a></h6>
+            <h2 class="text-right"><i class="fas fa-question-circle f-left"></i><span>{{total_question}}</span></h2>
+              </div>
+        </div>
+      </div>
+
+
+                <div class="col-md-4 col-xl-6">
+        <div class="card bg-c-powder-blue order-card">
+          <div class="card-block">
+            <h6 class="m-b-20">Product Operation <br> <br>  Registeration closed.</a></h6>
+            <h2 class="text-right"><i class="fas fa-question-circle f-left"></i><span>{{total_question}}</span></h2>
+
+
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+<br><br><br><br><br><br><br><br><br><br>
+
+<script src="http://netdna.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+
+
+{% endblock content %}
